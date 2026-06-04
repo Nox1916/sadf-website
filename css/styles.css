@@ -8067,9 +8067,12 @@ textarea.form-control-lg {
 }
 
 /* rtl:end:remove */
-.text-primary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+.text-primary{
+    color:#f4c400 !important;
+}
+
+.display-3{
+    font-weight:800;
 }
 
 .text-secondary {
@@ -10931,7 +10934,7 @@ p {
   }
 }
 .page-section {
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 5rem;
 }
 
@@ -10943,10 +10946,10 @@ p {
   font-size: 1rem;
   font-weight: 800;
 }
-.section-heading .section-heading-lower {
-  display: block;
-  font-size: 3rem;
-  font-weight: 100;
+.section-heading-lower {
+    font-size: 2.3rem;
+    font-weight: 300;
+    line-height: 1.2;
 }
 
 .bg-faded {
